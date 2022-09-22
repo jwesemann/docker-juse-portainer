@@ -1,10 +1,8 @@
 #!/bin/sh
 
-a=$0
-#echo $a
-b=${a##*_}
-#echo $b
-c=${b%.*}
+a="${PWD##*/}"
+echo $a
+c=${a##*-}
 echo $c
 
 docker container stop ${c}
