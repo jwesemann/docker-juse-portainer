@@ -1,4 +1,5 @@
 git-addremotes.*
 workdir/*
 dockerdir/*
+datadir/*
 .jgit/*
